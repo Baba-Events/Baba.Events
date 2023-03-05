@@ -833,6 +833,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: #D2B48C;
 }
+.bg-brown-200 {
+  --tw-bg-opacity: 1;
+  background-color: #ddcdb9;
+}
 .hover\:bg-brown-400:hover {
   --tw-bg-opacity: 1;
   background-color: #ddcdb9;
