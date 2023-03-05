@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZNW36LNW6Z"></script>
+  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-ZNW36LNW6Z'); </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/swiper-bundle.min.css">
+  <link rel="stylesheet" href="dist/output.css" />
+  <title>Baba Event</title>
+</head>
+
+<body class="bg-white">
+
+  <section class="bubble-bg relative">
+
+    <nav
+      class="fixed top-0 bg-gray-50 p-4 w-full grid grid-cols-none shadow-md md:max-w-7xl md:grid-cols-menu md:shadow-none md:relative md:mx-auto md:bg-transparent z-50">
+      <div class="flex justify-between items-center md:justify-center">
+        <a href="#home">
+          <img src="./ressources/baba-events.png" alt="Baba-vents logo" class="w-10 sm:w-24" />
+        </a>
+
+        <button class="icone-toggle bg-white rounded-md p-2 ring-1 ring-black ring-opacity-20 md:hidden">
+          <img src="./ressources/menu.svg" alt="Humburger logo menu" class="h-6 w-6" />
+        </button>
+      </div>
+
+      <ul
+        class="toggle-menu hidden px-1 pt-6 bg-gray-50 flex flex-col md:flex md:bg-transparent md:flex-row md:space-x-10 md:w-auto md:items-center md:justify-center md:pt-0">
+        <li class="py-2 text-center border-t border-gray-200 md:border-0">
+          <a href="#apropos" class="font-['Amatic_SC'] text-3xl text-zinc-700 navmenuApropos hover:text-white shadow-md px-6 py-1 border font-medium rounded-md text-white bg-brown-300 navmenuContact hover:bg-brown-400 text-center w-40 bg-brown-300">A
+            propos</a>
+        </li>
+
+        <li class="py-2 text-center border-t border-gray-200 md:border-0">
+          <a href="#realisations"
+            class="font-['Amatic_SC'] text-3xl text-zinc-700 navmenuReal hover:text-white shadow-md px-6 py-1 border font-medium rounded-md text-white bg-brown-300 navmenuContact hover:bg-brown-400 text-center w-40 bg-brown-300">Événement</a>
+        </li>
+
+        <li class="py-2 text-center border-t border-gray-200 md:border-0">
+          <a href="#prestations" class="font-['Amatic_SC'] text-3xl text-zinc-700 navmenuPres hover:text-white shadow-md px-6 py-1 border font-medium rounded-md text-white bg-brown-300 navmenuContact hover:bg-brown-400 text-center w-40 bg-brown-300">Nos
+            Tarifs</a>
+        </li>
+
+        <li class="py-2 text-center border-t border-gray-200 md:border-0">
+          <a href="#agenda" class="font-['Amatic_SC'] text-3xl text-zinc-700 navmenuPres hover:text-white shadow-md px-6 py-1 border font-medium rounded-md text-white bg-brown-300 navmenuContact hover:bg-brown-400 text-center w-40 bg-brown-300">Agenda</a>
+        </li>
+      </ul>
+
+      <div class="toggle-menu flex hidden justify-center items-center mt-6 md:mt-0 md:justify-end md:flex">
+        <a href="#contact"
+          class="shadow-md px-6 py-2 border font-medium rounded-md text-white bg-brown-300 navmenuContact hover:bg-brown-400 text-center w-40 bg-brown-300">Contact</a>
+      </div>
+    </nav>
+    <!-- #endregion -->
+
+    <!-- #region Accueil -->
+    <div class="px-10 pt-40 pb-72 w-full relative overflow-hidden md:pt-24" id="home">
+      <img src="./ressources/baba-events.png" alt="Logo Baba events"
+        class="logo-home px-5 py-9 m-auto w-auto sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px]">
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region Fleche Down Bounce -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-10">
+      <a href="#apropos" aria-label="Flêche vers le bas"
+        class="animate-bounce bg-white p-2 w-12 h-12 ring-1 ring-slate-900/5 shadow-lg rounded-full flex items-center justify-center sm:w-16 sm:h-16">
+        <svg class="w-6 h-6 text-brown-300 sm:w-8 sm:h-8" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+          <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+        </svg>
+      </a>
+    </div>
+  </section>
+  <!-- #endregion -->
+  </section>
+
+  <!-- #region A propos de nous -->
+  <section id="apropos" class="bg-brown-300">
+    <div class="max-w-7xl mx-auto px-4 py-10 sm:mt-20">
+      <div class="relative container mx-auto bg-gray-100">
+
+        <img src="ressources/aboutPicture.webp" alt="wedding"
+          class="w-full object-cover h-72 sm:w-1/2 sm:absolute sm:h-full">
+
+        <div class="py-10 px-10 sm:ml-auto sm:w-1/2">
+          <h1 class="text-5xl font-['Amatic_SC'] uppercase">Baba Events</h1>
+          <h2 class="mb-5 font-['Amatic_SC'] text-3xl">A propos de nous</h2>
+          <p class="font-thin text-lg"><strong>Baba Events</strong> vous souhaite la bienvenue. <br>
+            event <br>
+            Cordialement,
+            Baba Events</p>
+          <a href="#contact"
+            class="inline-flex ring-1 ring-slate-300 rounded shadow-md items-center justify-between p-3 bg-brown-300 hover:bg-brown-400 text-white mt-10 mb:mt-20 bg-brown-300">
+            <span class="mr-4">Contactez-nous</span>
+            <img src="./ressources/mail-svgrepo-com.svg" alt="logo d'un téléphone" class="w-6 h-6">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- #endregion -->
+
+  <!-- #region Nos Événements -->
+  <section class="max-w-7xl mx-auto px-4 py-10">
+    <h2 class="mb-5 font-['Amatic_SC'] text-5xl text-right" id="realisations">
+      Nos Événements
+    </h2>
+
+    <!-- Swiper -->
+    <div class="slide-container swiper max-w-[1120px] w-full px-10">
+      <div class="slide-content-realisation mx-auto mb-10 pb-7 overflow-hidden rounded-md md:mx-10 md:my-10">
+        <div class="max-w-8xl card-wrapper swiper-wrapper">
+          <!-- #region CARD -->
+          <div class="swiper-slide shadow-lg realisations">
+            <img src="./ressources/event1.jpg" alt="Photo d'une réalisation" class="h-81 w-full object-cover" />
+            <div class="p-4">
+              <div class="flex justify-start">
+                <p class="font-['Amatic_SC'] font-bold text-xl">
+                  Anniversaire
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="swiper-slide shadow-lg realisations">
+            <img src="./ressources/event2.jpg" alt="Photo d'un evenement"
+              class="h-81 w-full object-cover" />
+            <div class="p-4">
+              <div class="flex justify-start">
+                <p class="font-['Amatic_SC'] font-bold text-xl">
+                  Baptême 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide shadow-lg realisations">
+            <img src="./ressources/rien.png" alt="" class="h-81 w-full object-cover" />
+            <div class="p-4">
+              <div class="flex justify-start">
+                <p class="font-['Amatic_SC'] font-bold text-xl">
+                  ‎ 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide shadow-lg realisations">
+            <img src="./ressources/rien.png" alt="" class="h-81 w-full object-cover" />
+            <div class="p-4">
+              <div class="flex justify-start">
+                <p class="font-['Amatic_SC'] font-bold text-xl">
+                  ‎
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <!-- #endregion -->
+        </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn hover:text-blue-400" id="next-realisation"></div>
+      <div class="swiper-button-prev swiper-navBtn hover:text-blue-400" id="prev-realisation"></div>
+      <div class="swiper-pagination swiper-pagination-realisation"></div>
+    </div>
+  </section>
+  <!-- #endregion -->
+
+  </section>
+  <!-- #endregion -->
+
+  <!-- #region Nos Tarifs Slider -->
+  <div class="relative">
+    <img src="./ressources/ruban-bg.webp" alt="Illustration d'un ruban"
+      class="absolute w-full object-cover top-0 z-0 overflow-hidden">
+  </div>
+  <section id="prestations" class="max-w-7xl mx-auto py-10 z-20">
+    <h2 class="text-left font-['Amatic_SC'] mt-20 text-5xl ml-2  z-10 relative">
+      Nos Tarifs
+    </h2>
+    <p class="text-left text-2xl ml-2 font-['Amatic_SC']">Parcourez nos services en location pour vos événements.</p>
+    <!-- Swiper -->
+    <div class="slide-container swiper max-w-[1120px] w-full px-10">
+      <div class="slide-content-prestation mx-auto mb-10 overflow-hidden rounded-md md:mx-10 md:my-10">
+        <div class="max-w-8xl card-wrapper swiper-wrapper">
+          <!-- #region CARD -->
+          <div
+            class="swiper-slide min-h-[450px] flex flex-col shadow-md rounded-lg mt-7 px-6 py-4 text-left bg-lime-200">
+            <!-- CARTE PART HAUT-->
+            <div class="mb-5">
+              <h2 class="text-2xl font-bold text-gray-900">Service de Mascotte</h2>
+              <p class="text-md text-gray-800">À partir de :</p>
+              <p class="mt-2">
+                <span class="text-4xl font-extrabold">80 CHF</span>
+              </p>
+            </div>
+
+            <!-- CARTE PART BAS-->
+            <div class="flex flex-grow flex-col items-center">
+              <img src="./ressources/mascotte.jpg" alt="Photo de mascotte"
+                class="h-[320px] w-[272px] object-cover rounded" />
+              <p class="mt-2">
+              1 heure d'animation et photos avec les enfants * <br /> Frais de déplacement 65ct/km </p> 40 CHF la mascotte supplémentaire <br /> <br /> * la gestion de la musique est à votre charge
+              </p>
+            </div>
+          </div>
+          <!-- #endregion -->
+
+          <!-- #region CARD -->
+          <div
+            class="swiper-slide min-h-[450px] flex flex-col shadow-md rounded-lg mt-7 px-6 py-4 text-left bg-pink-200">
+            <!-- CARTE PART HAUT-->
+            <div class="mb-5">
+              <h2 class="text-2xl font-bold text-gray-900">Locations de Mascottes</h2>
+              <p class="text-md text-gray-800">À partir de :</p>
+              <p class="mt-2">
+                <span class="text-4xl font-extrabold">50 CHF</span>
+              </p>
+            </div>
+
+            <!-- CARTE PART BAS-->
+            <div class="flex flex-grow flex-col">
+              <img src="./ressources/mascottes.jpg" alt="Photo de Mascottes"
+                class="h-[420px] w-[272px] object-cover rounded" />
+              <p class="mt-2">
+              Prix par mascotte <br /> À venir chercher
+              </p>
+            </div>
+          </div>
+          
+          <!-- #endregion -->
+
+          <!-- #region CARD -->
+          <div
+            class="swiper-slide min-h-[450px] w-80 flex flex-col shadow-md rounded-lg mt-7 px-6 py-4 text-left bg-cyan-200">
+            <!-- CARTE PART HAUT-->
+            <div class="mb-5">
+              <h2 class="text-2xl font-bold text-gray-900">Château Gonflable</h2>
+              <p class="text-md text-gray-800">À partir de :</p>
+              <p class="mt-2">
+                <span class="text-4xl font-extrabold">300 CHF</span>
+              </p>
+            </div>
+
+            <!-- CARTE PART BAS-->
+            <div class="flex flex-grow flex-col items-center">
+              <img src="./ressources/gonflable.jpg" alt="Photo de Gonflable"
+                class="h-[320px] w-[272px] object-cover rounded" />
+              <p class="mt-2">
+                Location 24h du château gonflable<br /> 100 CHF par jour supplémentaire <br /> Décoration à thème possible <br />
+                Frais de déplacement gratuits jusqu'à 20km, puis 65ct/km
+              </p>
+            </div>
+            <!-- copie ici -->
+          </div>
+
+          <!-- #endregion -->
+        </div>
+      </div>
+
+      <div class="swiper-button-next swiper-navBtn hover:text-blue-400" id="next-prestation"></div>
+      <div class="swiper-button-prev swiper-navBtn hover:text-blue-400" id="prev-prestation"></div>
+      <div class="swiper-pagination swiper-pagination-prestation"></div>
+    </div>
+  </section>
+  <!-- #endregion -->
+
+  <div class="relative">
+    <img src="./ressources/chaise-bg.webp" alt="Illustration de chaise"
+      class="absolute w-full object-cover top-0 z-0 overflow-hidden">
+  </div>
+  <!-- #region avis -->
+  <section id="realisations" class="mx-auto py-10 px-4">
+    <h2 class="font-['Amatic_SC'] text-5xl text-center">
+      avis
+    </h2>
+    <p class="font-['Amatic_SC'] text-center text-2xl">Rejoignez-nous sur nos réseaux et laissez nous votre avis. </p>
+    <!-- #region Commentaire -->
+    <div class="w-full  h-48 mx-auto flex flew-col justify-around items-center sm:flex-row">
+
+      <div class="max-w-md px-4 py-4 text-black bg-yellow-200 rounded-lg shadow">
+        <div class="mb-2">
+          <div class="h-3 text-3xl text-left text-black">“</div>
+          <p class="px-4 text-sm text-center text-black italic">
+            Merci à vous pour votre professionnalisme, tout été parfait les cadres personnalisés étaient magnifiques
+          </p>
+          <div class="h-3 text-3xl text-right text-black">”</div>
+        </div>
+        <p class="text-right text-xs text-black">Baba</p>
+      </div>
+    </div>
+    <!-- #endregion -->
+  </section>
+  <!-- #endregion -->
+
+
+  <a href="#agenda"
+        stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+        <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+      </svg>
+    </a>
+  </div>
+</section>
+<!-- #endregion -->
+</section>
+
+<!-- #region A propos de nous -->
+<section id="agenda" class="bg-brown-300">
+  <div class="max-w-7xl mx-auto px-4 py-10 sm:mt-20">
+    <div class="relative container mx-auto bg-gray-100">
+
+      <img src="ressources/aboutPicture.webp" alt="wedding"
+        class="w-full object-cover h-72 sm:w-1/2 sm:absolute sm:h-full">
+
+      <div class="py-10 px-10 sm:ml-auto sm:w-1/2">
+        <h1 class="text-5xl font-['Amatic_SC'] uppercase">agenda</h1>
+        <h2 class="mb-5 font-['Amatic_SC'] text-3xl">2023</h2>
+        <p class="font-thin text-lg"><br>
+          📅 11 mars non dispo<br>
+          📅 7 au 9 avril non dispo<br>
+          📅 13 mai non dispo<br>
+          📅 28 octobre non dispo<br>
+        </p>
+        <a href="#contact"
+          class="inline-flex ring-1 ring-slate-300 rounded shadow-md items-center justify-between p-3 bg-brown-300 hover:bg-brown-400 text-white mt-10 mb:mt-20">
+          <span class="mr-4">Contactez-nous</span>
+          <img src="./ressources/mail-svgrepo-com.svg" alt="logo d'un téléphone" class="w-6 h-6">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- #endregion -->
+
+
+
+  <!-- #region Formulaire -->
+  <section id="contact" class="bg-gray-50 pb-32 md:pb-40">
+    <h2 class="text-center font-['Amatic_SC'] pt-10 text-5xl mb-2">Rentrons en contact</h2>
+    <p class="text-center font-['Amatic_SC'] pt-6 text-5xl">Vous pouvez nous joindre directement au : 089 237 213 237<br />
+      <br /> <strong />
+    Heure disponible <br />
+    <br />
+    La semaine : 18h a 22h
+    <form action=""
+      class="space-y-6 max-w-3xl mx-auto py-16 px-4 relative z-20 sm:px-6 lg:px-8 xl:px-12">
+      <div>      <div class="flex justify-center">
+        <button type="submit" role="button" onclick="window.open('https://www.nike.com')" class="shadow-md px-6 py-3 border font-medium rounded-md text-white bg-brown-300 navmenuContact hover:bg-brown-400 text-center bg-brown-300">Accéder au formulaire</button>
+      </div>
+    </form>
+  </section>
+  
+  
+
+  <!-- #endregion -->
+  <div class="relative">
+    <img src="./ressources/ballon-bg.webp" alt="Illustration de ballon gonflable"
+      class="absolute w-full object-cover bottom-0 z-10 overflow-hidden">
+  </div>
+
+  <!-- #region FOOTER -->
+  <!-- Footer -->
+
+  <footer class="bg-lime-300 py-5">
+
+    <h3 class="text-3xl pb-5 text-center font-extrabold text-black">Retrouvez-nous ici</h3>
+
+    <div class="mb-5 flex space-x-6 justify-center text-black">
+
+      <a href="https://www.facebook.com/profile.php?id=100087271190858" target="_blank">
+        <img src="ressources/fb.svg" alt="icône fb" class="w-20 h-20">
+      </a>
+
+      <a href="https://www.instagram.com/baba_eventss/" target="_blank">
+        <img src="ressources/instagram.svg" alt="icône instagram" class="w-20 h-20">
+      </a>
+
+    </div>
+
+  <script src="swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
