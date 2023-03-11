@@ -833,6 +833,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: #D2B48C;
 }
+.bg-rose-300 {
+  --tw-bg-opacity: 1;
+  background-color: #ebd6d6;
+}
 .bg-brown-200 {
   --tw-bg-opacity: 1;
   background-color: #ddcdb9;
