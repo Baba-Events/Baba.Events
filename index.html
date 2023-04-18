@@ -280,10 +280,12 @@
     <h2 class="font-['Amatic_SC'] text-5xl text-center">
       avis
     </h2>
-    <p class="font-['Amatic_SC'] text-center text-2xl">Rejoignez-nous sur nos réseaux et laissez nous votre avis. </p>
-    <!-- #region Commentaire -->
-        <div class="w-full mx-auto mt-10 mb-16 text-center">
-
+    <p class="font-['Amatic_SC'] text-center text-2xl">Rejoignez-nous sur nos réseaux et laissez-nous votre avis.</p>
+  
+    <div class="w-full mx-auto mt-10 mb-16">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
       <div class="max-w-md px-4 py-4 text-black bg-rose-300 rounded-lg shadow">
         <div class="mb-2">
           <div class="h-3 text-3xl text-left text-black">“</div>
@@ -293,10 +295,49 @@
           <div class="h-3 text-3xl text-right text-black">”</div>
         </div>
         <p class="text-right text-xs text-black">Yael Ischi</p>
+            </div>
+          </div>
+  
+          <div class="swiper-slide">
+            <div class="max-w-md px-4 py-4 text-black bg-rose-300 rounded-lg shadow">
+              <div class="mb-2">
+                <div class="h-3 text-3xl text-left text-black">“</div>
+                <p class="px-4 text-sm text-center text-black italic">
+                  Merci beaucoup beaucoup pour tout. C’était incroyable j’ai beaucoup aimé 😘😘
+                </p>
+                <div class="h-3 text-3xl text-right text-black">”</div>
+              </div>
+              <p class="text-right text-xs text-black">Iris</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- #endregion -->
   </section>
+  
+  <style>
+    .swiper-container {
+      overflow: hidden;
+    }
+  </style>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  autoplay: {
+    delay: 6000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+  </script>  
+  
   <!-- #endregion -->
 
 
